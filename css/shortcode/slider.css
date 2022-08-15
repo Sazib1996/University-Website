@@ -1,0 +1,86 @@
+/* -----------------------------------
+Template:  Theme Name
+
+NOTE: This is Slider style file. All Slider related style included in this file.
+
+--------------------------------------*/
+figure {
+	position: relative;
+}
+figcaption {
+	position: absolute;
+	top: 34%;
+	text-align: center;
+	display: inline-block;
+	left: 0;
+	right: 0;
+}
+figcaption span {
+	font-size: 24px;
+	color: white;
+	font-weight: normal;
+	display: inline-block;
+	padding-bottom: 13px;
+	margin-bottom: 4px;
+	font-family: 'Roboto', sans-serif;
+	position: relative;
+}
+figcaption span::before {
+	content: "";
+	height: 2px;
+	width: 120px;
+	background: white;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	text-align: ;
+	margin: 0 auto;
+	right: 0;
+}
+figcaption h2 {
+	color: white;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-bottom: 13px;
+	font-size: 45px;
+	font-family: 'Roboto', sans-serif;
+}
+figcaption p {
+	font-size: 20px;
+	color: white;
+	text-transform: capitalize;
+	margin: 0 0 30px 0;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+.btn-1 {
+	color: white;
+	border: 1px solid #e79800;
+	padding: 15px 19px 14px;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height: 73px;
+}
+.btn-1:hover {
+	background: #e79800;
+	color: white;
+}
+.owl-dots {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 40px;
+}
+figure::before {
+	content: "";
+	position: absolute;
+	background: black;
+	left: 0;
+	text-align: ;
+	top: 0;
+	right: 0;
+	border: ;
+	bottom: 0;
+	opacity: 0.5;
+}
